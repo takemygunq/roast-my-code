@@ -51,19 +51,6 @@ function Sidebar() {
         <NavLink href="/settings" label="Settings" icon="⚙️" />
       </nav>
 
-      {/* Bottom indicator */}
-      <div className="px-4 py-4">
-        <div
-          className="flex items-center gap-2 px-3 py-2 rounded-lg"
-          style={{ background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.08)" }}
-        >
-          <div
-            className="rounded-full shrink-0"
-            style={{ width: 7, height: 7, background: "var(--success)", boxShadow: "0 0 6px var(--success)" }}
-          />
-          <span style={{ fontSize: 12, color: "rgba(255,255,255,0.45)" }}>Running locally</span>
-        </div>
-      </div>
     </aside>
   );
 }
